@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: poke
+    env: static
+    static_publish_path: dist
+    build_command: npm run build
+    publish:
+      - gh-pages
