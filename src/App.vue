@@ -282,7 +282,7 @@ header input {
 }
 
 .fa-brands{
-  font-size: 25px;
+  font-size: 25px !important;
 }
 
 main {
