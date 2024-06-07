@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: static
     name: poke
     env: static
     static_publish_path: dist
