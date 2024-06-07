@@ -8,7 +8,7 @@
       </div>
       <div class="busquedaInput">
         <input class="ingresado" type="text" placeholder="Buscar nombre de pokemon" v-model="search">
-        <button @click="traerDatos()"><i class="fa-brands fa-searchengin"></i></button>
+        <button @click="traerDatos()"><i class="fa-brands fa-searchengin BusquedaI"></i></button>
       </div>
     </header>
     <main v-if="nombrePoke">
@@ -281,6 +281,10 @@ header input {
     0 0 100px rgb(255, 208, 0);
 }
 
+.BusquedaI{
+  font-size:25px;
+}
+  
 main {
   display: flex;
   flex-wrap: wrap;
