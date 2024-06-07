@@ -281,7 +281,7 @@ header input {
     0 0 100px rgb(255, 208, 0);
 }
 
-.fa-searchengin{
+.fa-brands{
   font-size: 25px;
 }
 
