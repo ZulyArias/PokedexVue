@@ -280,7 +280,7 @@ header input {
   box-shadow: 0 0 5px rgb(255, 208, 0), 0 0 20px rgb(255, 208, 0), 0 0 50px rgb(255, 208, 0),
     0 0 100px rgb(255, 208, 0);
 }
-
+  
 main {
   display: flex;
   flex-wrap: wrap;
