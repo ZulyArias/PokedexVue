@@ -281,6 +281,10 @@ header input {
     0 0 100px rgb(255, 208, 0);
 }
 
+.fa-searchengin{
+  font-size: 25px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
