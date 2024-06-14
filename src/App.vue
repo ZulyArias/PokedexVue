@@ -28,7 +28,7 @@
         <div class="infoTipo">
           <h3> Tipo: </h3>
           <ul>
-            <li v-for="tipo in tipoPoke" :key="tipo" class="typePoke">
+            <li v-for="tipo in tipoPoke" :key="tipo" class="typePoke" :style="{'background-color': typeColors[tipo.toLowerCase()]}">
               {{ tipo }}
             </li>
           </ul>
@@ -92,6 +92,27 @@ const statEmojis = {
   speed: '🏃💨'
 }
 
+// defino los colores de los tipos
+const typeColors = {
+  normal: '#A8A77A',
+  fire: '#EE8130',
+  water: '#6390F0',
+  electric: '#F7D02C',
+  grass: '#7AC74C',
+  ice: '#96D9D6',
+  fighting: '#C22E28',
+  poison: '#A33EA1',
+  ground: '#E2BF65',
+  flying: '#A98FF3',
+  psychic: '#F95587',
+  bug: '#A6B91A',
+  rock: '#B6A136',
+  ghost: '#735797',
+  dragon: '#6F35FC',
+  dark: '#705746',
+  steel: '#B7B7CE',
+  fairy: '#D685AD',
+};
 
 
 // función para traer los datos de la página:
@@ -339,16 +360,6 @@ main div {
   border-radius: 30px;
   cursor: pointer;
   text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
-  background: linear-gradient(15deg,
-      #880088,
-      #aa2068,
-      #cc3f47,
-      #de6f3d,
-      #f09f33,
-      #de6f3d,
-      #cc3f47,
-      #aa2068,
-      #880088) no-repeat;
   background-size: 300%;
   background-position: left center;
   transition: background 0.3s ease;
