@@ -114,7 +114,6 @@ const typeColors = {
   fairy: '#D685AD',
 };
 
-
 // función para traer los datos de la página:
 const traerDatos = async () => {
   if (search.value) {
@@ -301,7 +300,7 @@ header input {
   box-shadow: 0 0 5px rgb(255, 208, 0), 0 0 20px rgb(255, 208, 0), 0 0 50px rgb(255, 208, 0),
     0 0 100px rgb(255, 208, 0);
 }
-  
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -350,6 +349,31 @@ main div {
   display: flex;
   gap: 0.5rem;
 }
+
+/* .infoTipo li {
+  width: fit-content;
+  padding: 0.8em 1.1em;
+  gap: 0.4rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg,
+      #880088,
+      #aa2068,
+      #cc3f47,
+      #de6f3d,
+      #f09f33,
+      #de6f3d,
+      #cc3f47,
+      #aa2068,
+      #880088) no-repeat;
+  background-size: 300%;
+  background-position: left center;
+  transition: background 0.3s ease;
+  color: #fff;
+} */
 
 .infoTipo li {
   width: fit-content;
